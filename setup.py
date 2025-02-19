@@ -6,9 +6,7 @@ setup(
     description='Disable email validation in Open edX',
     packages=find_packages(include=['disable_openedx_email_validation*']),
     include_package_data=True,  # This is crucial!
-    package_data={
-        'disable_openedx_email_validation': ['hooks.py'],
-    },
+
     entry_points={
         'tutor.plugins': [
             'disable-openedx-email-validation = disable_openedx_email_validation.hooks',
