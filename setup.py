@@ -11,7 +11,7 @@ setup(
     },
     entry_points={
         'tutor.plugins': [
-            'disable_openedx_email_validation = disable_openedx_email_validation.hooks',
+            'disable-openedx-email-validation = disable_openedx_email_validation.hooks',
         ],
     },
 )
